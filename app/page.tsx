@@ -2,6 +2,7 @@ import Image from "next/image";
 import HEADER2 from "./components/header2/page";
 import Link from "next/link";
 import Header from "./components/header/page";
+
 export default function Home() {
   return (
     <div>
@@ -37,7 +38,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <img
+        <Image
           src="/images/image.svg"
           alt="image"
           className="py-12 w-screen sm:w-1/2 sm:py-0  sm:p-0"
@@ -45,7 +46,7 @@ export default function Home() {
       </div>
       <div className="sm:flex sm:justify-between sm:bg-[#F7F7F7] sm:items-center sm:p-2 sm:py-12">
         <p className="font-roboto font-bold text-lg pb-4 px-4 sm:p-0 sm:hidden">
-          Trusted by the world's best companies [social proof to build
+          Trusted by the worlds best companies [social proof to build
           credibility]
         </p>
         <p className="font-roboto font-bold text-lg pb-4 px-4 sm:p-0 hidden sm:block w-80">
@@ -53,11 +54,11 @@ export default function Home() {
         </p>
 
         <div className="flex overflow-scroll gap-3 px-4 sm:overflow-hidden sm:h-10 sm:gap-16 sm:mx-4">
-          <img src="/images/Airbnb logo.svg" alt="" />
-          <img src="/images/Airbnb logo2.svg" alt="" />
-          <img src="/images/Airbnb logo3.svg" alt="" />
-          <img src="/images/Airbnb logo4.svg" alt="" />
-          <img src="/images/Airbnb logo5.svg" alt="" />
+          <Image src="/images/Airbnb logo.svg" alt="" />
+          <Image src="/images/Airbnb logo2.svg" alt="" />
+          <Image src="/images/Airbnb logo3.svg" alt="" />
+          <Image src="/images/Airbnb logo4.svg" alt="" />
+          <Image src="/images/Airbnb logo5.svg" alt="" />
         </div>
       </div>
       <div className=" px-5 py-12 flex flex-col gap-4 mt-16">
@@ -72,7 +73,7 @@ export default function Home() {
       <div className="sm:flex sm:flex-col sm:justify-center sm:items-center flex flex-col justify-center items-center">
         <div className="p-4 flex flex-col gap-4 items-center justify-center sm:flex-row sm:gap-8 sm:px-0">
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 px-4 w-[21rem] sm:w-[26.625rem]">
-            <img src="/images/Frame 290.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 290.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Design & Development
@@ -84,7 +85,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 291.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 291.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Marketing
@@ -96,7 +97,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 292.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 292.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Deveopment
@@ -109,7 +110,7 @@ export default function Home() {
         </div>
         <div className="sm:flex sm:gap-8 sm:my-4 hidden ">
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 px-4 w-[21rem] sm:w-[26.625rem]">
-            <img src="/images/Frame 290.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 290.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Design & Development
@@ -121,7 +122,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 291.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 291.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Marketing
@@ -133,7 +134,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 292.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 292.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Deveopment
@@ -146,7 +147,7 @@ export default function Home() {
         </div>
         <div className="sm:flex sm:gap-8 sm:my-4 hidden">
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 px-4 w-[21rem] sm:w-[26.625rem]">
-            <img src="/images/Frame 290.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 290.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Design & Development
@@ -158,7 +159,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 291.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 291.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Marketing
@@ -170,7 +171,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-4 items-center bg-[#F7F7F7] rounded py-4 w-[21rem] px-4 sm:w-[26.625rem]">
-            <img src="/images/Frame 292.svg" alt="" className="h-[80px]" />
+            <Image src="/images/Frame 292.svg" alt="" className="h-[80px]" />
             <div className="flex flex-col">
               <span className="font-roboto font-semibold text-lg">
                 Deveopment
@@ -182,8 +183,8 @@ export default function Home() {
           </div>
         </div>
         <button className="border-black border-[1px] w-fit py-2 px-4 rounded text-sm my-8">
-          {" "}
-          View All Courses{" "}
+          
+          View All Courses
         </button>
       </div>
 
@@ -295,14 +296,14 @@ export default function Home() {
         </div>
         <div className="sm:flex sm:justify-around">
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image2.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image2.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-sm font-roboto font-semibold">
                     Design
                   </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-sm">5.0</span>
               </div>
@@ -325,14 +326,14 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image3.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image3.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-sm font-roboto font-semibold">
                     Programming
-                  </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  </span>
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-sm">5.0</span>
               </div>
@@ -355,14 +356,14 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image4.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image4.svg" alt="" className="w-[100%]" />
             <div className="py-6 px-4 ">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-xs font-roboto font-semibold">
                     Bussiness
                   </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-xs">5.0</span>
               </div>
@@ -386,14 +387,14 @@ export default function Home() {
         </div>
         <div className="sm:flex sm:justify-around hidden">
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image2.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image2.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-sm font-roboto font-semibold">
                     Design
                   </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-sm">5.0</span>
               </div>
@@ -416,14 +417,14 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image3.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image3.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-sm font-roboto font-semibold">
                     Programming
                   </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-sm">5.0</span>
               </div>
@@ -446,14 +447,14 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <img src="/images/image4.svg" alt="" className="w-[100%]" />
+            <Image src="/images/image4.svg" alt="" className="w-[100%]" />
             <div className="py-6 px-4 ">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
                   <span className="text-xs font-roboto font-semibold">
                     Bussiness
                   </span>{" "}
-                  <img src="/images/Star 1.svg" alt="" className=" w-4 " />
+                  <Image src="/images/Star 1.svg" alt="" className=" w-4 " />
                 </div>
                 <span className="font-roboto text-xs">5.0</span>
               </div>
@@ -493,7 +494,7 @@ export default function Home() {
         </div>
         <div className="sm:grid grid-cols-3 grid-rows-2 sm:gap-x-56 ">
           <div className="flex flex-col p-4 items-center mt-6 ">
-            <img src="/images/image5.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image5.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -504,13 +505,13 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
           <div className="flex flex-col p-4 items-center mt-6 ">
-            <img src="/images/image6.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image6.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -521,13 +522,13 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
           <div className="flex flex-col p-4 items-center mt-6 ">
-            <img src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -538,14 +539,14 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
 
           <div className=" flex-col p-4 items-center mt-6 sm:flex hidden">
-            <img src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -556,13 +557,13 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
           <div className=" flex-col p-4 items-center mt-6 sm:flex hidden">
-            <img src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -573,13 +574,13 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
           <div className="sm:flex flex-col p-4 items-center mt-6  hidden">
-            <img src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -590,9 +591,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center gap-4 ">
-              <img src="/images/vector1.svg" alt="" />
-              <img src="/images/vector2.svg" alt="" />
-              <img src="/images/vector3.svg" alt="" />
+              <Image src="/images/vector1.svg" alt="" />
+              <Image src="/images/vector2.svg" alt="" />
+              <Image src="/images/vector3.svg" alt="" />
             </div>
           </div>
         </div>
@@ -620,22 +621,22 @@ export default function Home() {
             <div className="flex flex-col p-8 gap-6 border-2 border-gray-600 sm:w-[23rem]">
               <div className=" flex w-fit gap-1">
                 {" "}
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
               </div>
               <div className=" pr-4 text-left">
                 <p className="text-lg font-normal">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare.
                 </p>
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <img src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
@@ -650,22 +651,22 @@ export default function Home() {
             <div className=" flex-col p-8 gap-6 border-2 border-gray-600 sm:w-[23rem] hidden sm:flex">
               <div className=" flex w-fit gap-1">
                 {" "}
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
               </div>
               <div className=" pr-4 text-left">
                 <p className="text-lg font-normal">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare.
                 </p>
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <img src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
@@ -680,22 +681,22 @@ export default function Home() {
             <div className=" flex-col p-8 gap-6 border-2 border-gray-600 sm:w-[23rem] hidden sm:flex">
               <div className=" flex w-fit gap-1">
                 {" "}
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
-                <img src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
+                <Image src="/images/vector4.svg" alt="" />
               </div>
               <div className=" pr-4 text-left">
                 <p className="text-lg font-normal">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare.
                 </p>
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <img src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
@@ -719,10 +720,10 @@ export default function Home() {
             </div>
             <div className="flex gap-3 w-fit">
               <button className="p-3 border-black border-[1px] rounded-full">
-                <img src="/images/vector5.svg " alt="" />
+                <Image src="/images/vector5.svg " alt="" />
               </button>
               <button className="p-3 border-black border-[1px] rounded-full">
-                <img src="/images/vector6.svg " alt="" />
+                <Image src="/images/vector6.svg " alt="" />
               </button>
             </div>
           </div>
@@ -761,7 +762,7 @@ export default function Home() {
           </div>
           <div className="my-18 border-b-2 border-gray-900 py-6 sm:grid sm:grid-cols-4 sm:p-12 sm:py-28">
             <div className="flex items-center justify-center pr-5 sm:justify-start sm:items-start ">
-              <img src="/images/Frame 1.svg" alt="" />{" "}
+              <Image src="/images/Frame 1.svg" alt="" />{" "}
               <p className="font-sans font-bold text-2xl">Ddsgnr</p>
             </div>
             <div>
@@ -910,10 +911,10 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-3 justify-center sm:h-6">
-            <img src="images/vector7.svg" alt="" />
-            <img src="images/vector8.svg" alt="" />
-            <img src="images/vector9.svg" alt="" />
-            <img src="images/vector10.svg" alt="" />
+            <Image src="images/vector7.svg" alt="" />
+            <Image src="images/vector8.svg" alt="" />
+            <Image src="images/vector9.svg" alt="" />
+            <Image src="images/vector10.svg" alt="" />
           </div>
         </div>
       </div>
