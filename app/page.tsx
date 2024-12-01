@@ -5,7 +5,7 @@ import Header from "./components/header/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header></Header>
       <HEADER2></HEADER2>
       <div className="sm:flex  ">
@@ -55,11 +55,11 @@ export default function Home() {
         </p>
 
         <div className="flex overflow-scroll gap-3 px-4 sm:overflow-hidden sm:h-10 sm:gap-16 sm:mx-4">
-          <Image src="/images/Airbnb logo.svg" alt="" />
-          <Image src="/images/Airbnb logo2.svg" alt="" />
-          <Image src="/images/Airbnb logo3.svg" alt="" />
-          <Image src="/images/Airbnb logo4.svg" alt="" />
-          <Image src="/images/Airbnb logo5.svg" alt="" />
+          <Image src="/images/Airbnb Logo.svg" alt="" />
+          <Image src="/images/Airbnb Logo2.svg" alt="" />
+          <Image src="/images/Airbnb Logo3.svg" alt="" />
+          <Image src="/images/Airbnb Logo4.svg" alt="" />
+          <Image src="/images/Airbnb Logo5.svg" alt="" />
         </div>
       </div>
       <div className=" px-5 py-12 flex flex-col gap-4 mt-16">
@@ -581,7 +581,7 @@ export default function Home() {
             </div>
           </div>
           <div className="sm:flex flex-col p-4 items-center mt-6  hidden">
-            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/Image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
