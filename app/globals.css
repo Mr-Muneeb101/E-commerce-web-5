@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+img {
+  width: auto;
+  height: auto;
+  display: block; /* Prevent inline spacing */
+}
 /* Define custom properties for theming */
 :root {
   --background: #ffffff;

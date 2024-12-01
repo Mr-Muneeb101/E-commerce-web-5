@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "../Image/Image"
 export default function header2() {
   return (
     <div className="hidden sm:block">
@@ -9,7 +9,7 @@ export default function header2() {
             className="inline-flex gap-1 items-center font-bold font-inter text-3xl mx-4
           "
           >
-            <Image src="/images/Frame 1.svg" alt="3" /> <h1>Ddsgnr</h1>
+            <Image src="/images/Frame 1.svg" alt="3"/> <h1>Ddsgnr</h1>
           </div>
           <div className="flex  bg-white font-normal text-sm">
             <div className=" flex font-roboto gap-16  mr-8">

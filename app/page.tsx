@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./components/Image/Image"
 import HEADER2 from "./components/header2/page";
 import Link from "next/link";
 import Header from "./components/header/page";
@@ -42,6 +42,7 @@ export default function Home() {
           src="/images/image.svg"
           alt="image"
           className="py-12 w-screen sm:w-1/2 sm:py-0  sm:p-0"
+          width={400}
         />
       </div>
       <div className="sm:flex sm:justify-between sm:bg-[#F7F7F7] sm:items-center sm:p-2 sm:py-12">
@@ -720,10 +721,10 @@ export default function Home() {
             </div>
             <div className="flex gap-3 w-fit">
               <button className="p-3 border-black border-[1px] rounded-full">
-                <Image src="/images/vector5.svg " alt="" />
+                <Image src="/images/vector5.svg" alt=""/>
               </button>
               <button className="p-3 border-black border-[1px] rounded-full">
-                <Image src="/images/vector6.svg " alt="" />
+                <Image src="/images/vector6.svg" alt="" />
               </button>
             </div>
           </div>
@@ -762,7 +763,7 @@ export default function Home() {
           </div>
           <div className="my-18 border-b-2 border-gray-900 py-6 sm:grid sm:grid-cols-4 sm:p-12 sm:py-28">
             <div className="flex items-center justify-center pr-5 sm:justify-start sm:items-start ">
-              <Image src="/images/Frame 1.svg" alt="" />{" "}
+              <Image src="/images/Frame 1.svg" alt="" width={400}  height={400}/>{" "}
               <p className="font-sans font-bold text-2xl">Ddsgnr</p>
             </div>
             <div>
