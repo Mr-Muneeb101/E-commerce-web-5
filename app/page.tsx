@@ -388,7 +388,7 @@ export default function Home() {
         </div>
         <div className="sm:flex sm:justify-around hidden">
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <Image src="/images/image2.svg" alt="" className="w-[100%]" />
+            <Image src="/images/Image2.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
@@ -418,7 +418,7 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <Image src="/images/image3.svg" alt="" className="w-[100%]" />
+            <Image src="/images/Image3.svg" alt="" className="w-[100%]" />
             <div className="p-6">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
@@ -448,7 +448,7 @@ export default function Home() {
           </div>
 
           <div className="mx-6 bg-[#F7F7F7] rounded my-12 sm:w-[26rem]">
-            <Image src="/images/image4.svg" alt="" className="w-[100%]" />
+            <Image src="/images/Image4.svg" alt="" className="w-[100%]" />
             <div className="py-6 px-4 ">
               <div className="flex gap-x-1 ">
                 <div className="flex justify-between w-[100vw]">
@@ -547,7 +547,7 @@ export default function Home() {
           </div>
 
           <div className=" flex-col p-4 items-center mt-6 sm:flex hidden">
-            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/Image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -564,7 +564,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" flex-col p-4 items-center mt-6 sm:flex hidden">
-            <Image src="/images/image7.svg" alt="" className="w-20 my-6" />
+            <Image src="/images/Image7.svg" alt="" className="w-20 my-6" />
             <div className="flex justify-center  flex-col mb-6">
               <span className="font-roboto font-bold text-center text-xl ">
                 {" "}
@@ -637,7 +637,7 @@ export default function Home() {
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <Image src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/Image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
@@ -667,7 +667,7 @@ export default function Home() {
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <Image src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/Image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
@@ -697,7 +697,7 @@ export default function Home() {
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-14 rounded-full border-2 overflow-hidden">
-                  <Image src="/images/image7.svg" alt="" className="w-full" />
+                  <Image src="/images/Image7.svg" alt="" className="w-full" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <span className="font-roboto font-semibold text-base text-left">
