@@ -6,7 +6,7 @@ export default function Header(){
             <div className="flex items-center text-2xl font-bold gap-1">
             <Image src="/images/Frame 1.svg" alt="logo"/><h1>Ddsgnr</h1>
             </div>
-            <Image src="/images/icon.svg" alt="" />
+            <Image src="/images/Icon.svg" alt="" />
         </div>
     )
 }
